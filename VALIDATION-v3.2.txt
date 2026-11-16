@@ -1,0 +1,4 @@
+Seven packaged and installed Hyprland visual overrides updated.
+Live hyprctl getoption: general:border_size=1; general:gaps_in=3 3 3 3; general:gaps_out=3 3 3 3.
+Hyprland reload passed; configerrors empty.
+Existing top bars, wallpapers, shortcuts and initial desktop backups untouched.

@@ -1,0 +1,11 @@
+* { bg: #101e23fa; fg: #e0e5d5; accent: #e6bb65; muted: #77999c; background-color: transparent; text-color: @fg; border-radius: 0px; }
+window { width: 520px; border: 1px; border-color: #e6bb65; background-color: @bg; padding: 24px; }
+mainbox { spacing: 20px; }
+inputbar { padding: 0px 0px 16px; border: 0px 0px 1px; border-color: #38545b; children: [ prompt, entry ]; spacing: 18px; }
+prompt { text-color: @accent; }
+entry { placeholder: "Search"; placeholder-color: @muted; }
+listview { lines: 7; columns: 1; spacing: 4px; fixed-height: true; }
+element { padding: 11px 12px; spacing: 12px; }
+element selected { background-color: #243b41; text-color: #e0e5d5; }
+element-text { highlight: bold; }
+message { padding: 10px; } textbox { text-color: @muted; }

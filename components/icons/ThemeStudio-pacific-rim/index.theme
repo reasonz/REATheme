@@ -1,0 +1,11 @@
+[Icon Theme]
+Name=ThemeStudio-pacific-rim
+Comment=Theme Studio precision line icons and accent cursor
+Inherits=Adwaita,breeze-dark,hicolor
+Directories=scalable/places
+[scalable/places]
+Size=48
+Type=Scalable
+MinSize=16
+MaxSize=256
+Context=Places

@@ -1,0 +1,3 @@
+Built-in image_gen; no API CLI used.
+Premium fine pixel art desktop wallpaper, 16:9: serene Japanese garden tea pavilion on a rainy night, mossy stones, reflecting water, bamboo and pine. Architectural focal point on the right, dark negative space to the left. Charcoal #111916, moss #9fae87, forest #233a31, ivory #d9dcc9, restrained warm amber lamps. Fine pixel clusters, controlled dithering, cinematic composition, quiet mood. No text, logos, interface, frames, giant moon, sunset, neon, cartoon outlines or vector gradients.
+UI: low saturation, sparse geometric marks, sharp corners, fine borders, warm off-white text, readable monospace typography with Chinese fallback.

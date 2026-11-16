@@ -1,0 +1,25 @@
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+@define-color theme_bg_color #111b16;
+@define-color theme_fg_color #d3dbc6;
+@define-color theme_base_color #111b16;
+@define-color theme_text_color #d3dbc6;
+@define-color theme_selected_bg_color #2d3d2e;
+@define-color theme_selected_fg_color #b4c398;
+@define-color insensitive_fg_color #788b74;
+@define-color borders #344637;
+window, .background { background-color: #111b16; color: #d3dbc6; }
+headerbar, toolbar, menubar, statusbar { background-image: none; background-color: #2d3d2e; color: #d3dbc6; box-shadow: none; }
+button, entry, combobox, menu, notebook, frame { border-radius: 0; }
+button { background-image: none; background-color: #2d3d2e; color: #d3dbc6; border-color: #344637; box-shadow: none; text-shadow: none; }
+button:hover, button:checked { background-color: #344637; color: #b4c398; }
+entry { background: #111b16; color: #d3dbc6; border-color: #344637; box-shadow: none; }
+entry:focus { border-color: #b4c398; }
+treeview, iconview, .view, list { background-color: #111b16; color: #d3dbc6; }
+treeview:selected, iconview:selected, row:selected, selection { background-color: #2d3d2e; color: #b4c398; }
+.view:selected, .view:selected:focus, treeview.view:selected, treeview.view:selected:focus, treeview.view:selected:backdrop { background-color: #2d3d2e; color: #b4c398; }
+menu, menuitem { background-color: #2d3d2e; color: #d3dbc6; }
+menuitem:hover { background-color: #344637; color: #b4c398; }
+notebook > header { background-color: #2d3d2e; }
+notebook > header tab:checked { box-shadow: inset 0 -1px #b4c398; }
+scrollbar slider { background-color: #344637; min-width: 5px; min-height: 5px; border-radius: 0; }
+separator { background-color: #344637; }

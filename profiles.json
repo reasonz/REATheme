@@ -1,0 +1,62 @@
+{
+  "dragonball": {
+    "name": "龙珠 · 金色气焰",
+    "label": "KAME",
+    "bg": "101e23",
+    "panel": "243b41",
+    "accent": "e6bb65",
+    "fg": "e0e5d5",
+    "muted": "77999c",
+    "border": "38545b"
+  },
+  "bleach": {
+    "name": "死神 · 月下斩魄",
+    "label": "BANKAI",
+    "bg": "13151f",
+    "panel": "2c2d40",
+    "accent": "d4d3e6",
+    "fg": "dedee9",
+    "muted": "9191ac",
+    "border": "45455f"
+  },
+  "gundam": {
+    "name": "高达 · 钢铁凝视",
+    "label": "RX-78",
+    "bg": "181c1c",
+    "panel": "2b3031",
+    "accent": "c7c5ac",
+    "fg": "dedfce",
+    "muted": "8c9c91",
+    "border": "464d48"
+  },
+  "pacific-rim": {
+    "name": "环太平洋 · 核心觉醒",
+    "label": "JAEGER",
+    "bg": "0e1c25",
+    "panel": "233c46",
+    "accent": "dfa96c",
+    "fg": "c9dde1",
+    "muted": "709da7",
+    "border": "355966"
+  },
+  "goku-mature": {
+    "name": "龙珠 · 超赛觉醒",
+    "label": "KAKAROT",
+    "bg": "161b22",
+    "panel": "2c3038",
+    "accent": "d99e68",
+    "fg": "e4d9c7",
+    "muted": "9396a0",
+    "border": "5b4b43"
+  },
+  "halo-fusion": {
+    "name": "光环 × 环太平洋 · 融合机甲",
+    "label": "AEGIS",
+    "bg": "151b18",
+    "panel": "2d3629",
+    "accent": "c7ae6b",
+    "fg": "d7ddc6",
+    "muted": "83917c",
+    "border": "4a5840"
+  }
+}

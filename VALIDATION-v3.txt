@@ -1,0 +1,6 @@
+All seven final bars verified on live Hyprland. Final Waybar height=20 logical pixels for mosslight, dragonball, bleach, gundam, pacific-rim, gundam-scene, pacific-rim-scene.
+No Waybar error or format warning in per-profile validation.
+Original backup hashes unchanged. All wallpaper hashes unchanged.
+Classic-bar rollback and designed-bar reapply compared byte-for-byte against packaged sources, passed.
+Real desktop screenshots in bar-previews/.
+Current output scale=1.5: 20 logical pixels occupy 30 physical pixels.

@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Theme Studio · 苔光 · 雨夜庭院
+Description=Theme Studio matched login screen
+Author=Theme Studio
+Type=sddm-theme
+Version=4.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=mosslight-mosslight
+Theme-API=2.0
+QtVersion=6

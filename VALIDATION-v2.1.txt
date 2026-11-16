@@ -1,0 +1,6 @@
+v2.1 scope: Gundam and Pacific Rim only.
+Dragon Ball and Bleach all files SHA-256 compared and unchanged.
+Old scene variants retained with independent wallpaper paths and selectable profiles.
+Final art: half-body cinematic armor/wireframe portraits, full-body drafts rejected and excluded.
+Both final profiles applied on target, configerrors empty, components running, matching wallpapers verified and real screenshots captured.
+Original backup hashes unchanged. Current selected Gundam theme retained with the new artwork.

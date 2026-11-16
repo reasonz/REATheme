@@ -1,0 +1,10 @@
+font=Alibaba PuHuiTi 3.0 10
+background-color=#151b18f5
+text-color=#d7ddc6
+border-color=#c7ae6b
+border-size=1
+border-radius=0
+padding=16
+margin=12
+width=320
+default-timeout=6000

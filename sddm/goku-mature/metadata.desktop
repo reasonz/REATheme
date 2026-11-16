@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Theme Studio · 龙珠 · 超赛觉醒
+Description=Theme Studio matched login screen
+Author=Theme Studio
+Type=sddm-theme
+Version=4.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=mosslight-goku-mature
+Theme-API=2.0
+QtVersion=6

@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Theme Studio · 死神 · 月下斩魄
+Description=Theme Studio matched login screen
+Author=Theme Studio
+Type=sddm-theme
+Version=4.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=mosslight-bleach
+Theme-API=2.0
+QtVersion=6

@@ -1,0 +1,15 @@
+REATheme v5.0 — validation on the reference Arch Linux / Hyprland workstation
+
+PASS: native Qt6 application built on Linux x86_64 / Qt 6.12; production build has no compiler warnings.
+PASS: application catalogue (rofi drun used by Super+R) launches REATheme desktop entry; Wayland class/title REATheme, native 1920x1080 fullscreen.
+PASS: Left/Right keys, first/last wrap, Home, number selection, and Escape (Qt key event tests).
+PASS: Enter invokes the complete theme transaction; active theme checked after success. Escape cannot interrupt an in-progress transaction.
+PASS: all seven images render; portrait crop aligned to each character. 1920x1080 and 1280x720 layouts inspected, no cards outside window.
+PASS: generic sans-serif and Chinese glyph match Alibaba PuHuiTi 3.0 Regular; bold matches official Bold face.
+PASS: generic monospace remains Noto Sans Mono; Chinese glyph fallback is Noto Sans Mono CJK SC. All seven foot profiles request monospace.
+PASS: seven theme profiles carry fontconfig, GTK, launcher, notification, bar and lock-screen typography.
+PASS: Hyprland has no configuration errors; native display scale 1 and reserved top bar height 20 remain unchanged.
+PASS: injected apply failure restores managed file bytes, fontconfig, dconf (including font-name, document-font-name, monospace-font-name), SDDM selection and active theme.
+PASS: updated SDDM font configuration loads in test mode. No real logout, login or lock authentication performed.
+
+The initial offscreen live-input test leaked its QT_QPA_PLATFORM into child processes. Fixed the test harness to clear that variable before backend invocation; restarted desktop components with the regular session environment and verified catalogue launch on the real Wayland display. No offscreen REATheme instance remains.

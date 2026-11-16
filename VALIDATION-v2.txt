@@ -1,0 +1,5 @@
+2026-11-16
+All four profiles applied successfully on target Hyprland session.
+Each profile: foot check-config, Rofi theme parsing, Hyprland configerrors empty, Waybar/hyprpaper/mako running, hyprpaper listactive matches selected wallpaper, real desktop screenshot captured.
+Original backup hashes remained unchanged across all four applications.
+Mosslight restored after verification.

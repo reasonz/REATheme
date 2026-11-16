@@ -1,0 +1,26 @@
+* { border: none; border-radius: 0; min-height: 0; font-family: "Alibaba PuHuiTi 3.0", sans-serif; font-size: 9px; font-weight: 500; padding: 0; margin: 0; }
+window#waybar { background: transparent; }
+button { box-shadow: none; text-shadow: none; padding: 0; min-height: 0; }
+#workspaces button { min-width: 22px; }
+tooltip { background: #151d24; border: 1px solid #66707a; } tooltip label { padding: 6px; color: #dce2e6; }
+#battery.warning { color: #e7b86b; } #battery.critical { color: #ef7f75; }
+
+window#waybar { background: #10212b; color: #86afbd; border-bottom: 1px solid #3b6071; }
+#custom-theme { color: #f0b36c; background: #263238; padding: 0 14px; border-left: 3px solid #c88343; border-right: 1px solid #496574; letter-spacing: 2px; font-weight: bold; }
+#workspaces { padding: 0 8px; }
+#workspaces button { min-width: 24px; margin: 2px; border-radius: 2px; color: #557d90; border-bottom: 1px solid #355a6c; }
+#workspaces button.active { background: #493c2b; color: #efc181; border-bottom: 1px solid #d59149; }
+#workspaces button:hover { background: #355261; }
+#battery { color: #f3bd77; background: #3b3026; padding: 0 15px; border-radius: 9px; border: 1px solid #ab773f; margin: 1px 0; font-weight: bold; }
+#cpu, #memory { color: #608b9d; padding: 0 8px; font-size: 8px; }
+#network, #pulseaudio { padding: 0 10px; border-left: 1px solid #2d4c5c; font-size: 8px; }
+#clock { color: #bbd8df; padding: 0 16px; border-left: 1px solid #456273; letter-spacing: 1px; } #tray { padding-right: 6px; }
+
+
+/* COMPONENTS */
+#custom-power { color: #dfa96c; padding: 0 8px; margin: 0; min-height: 0; border: none; }
+
+
+
+/* REATHEME FONTS */
+#clock, #cpu, #memory, #battery, #workspaces { font-family: monospace; }

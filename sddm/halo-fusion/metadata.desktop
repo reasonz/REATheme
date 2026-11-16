@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Theme Studio · 光环 × 环太平洋 · 融合机甲
+Description=Theme Studio matched login screen
+Author=Theme Studio
+Type=sddm-theme
+Version=4.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=mosslight-halo-fusion
+Theme-API=2.0
+QtVersion=6

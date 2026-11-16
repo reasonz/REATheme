@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Theme Studio · 环太平洋 · 核心觉醒
+Description=Theme Studio matched login screen
+Author=Theme Studio
+Type=sddm-theme
+Version=4.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=mosslight-pacific-rim
+Theme-API=2.0
+QtVersion=6

@@ -1,0 +1,131 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 20,
+  "spacing": 0,
+  "custom/theme": {
+    "format": "悟  /  KAKAROT",
+    "tooltip-format": "左键：主题管理\n右键：应用启动器",
+    "on-click": "@PACKAGE@/REATheme",
+    "on-click-right": "rofi -show drun"
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "persistent-workspaces": {
+      "*": 4
+    }
+  },
+  "network": {
+    "format-wifi": "◈ {signalStrength}%",
+    "format-ethernet": "◈ LAN",
+    "format-disconnected": "◇ OFF",
+    "tooltip-format": "{essid}\n{ipaddr}",
+    "on-click": "foot nmtui",
+    "interval": 10
+  },
+  "pulseaudio": {
+    "format": "♪ {volume}%",
+    "format-muted": "♪ MUTE",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "scroll-step": 5,
+    "tooltip-format": "音量 {volume}% · 滚轮调整 · 点击静音"
+  },
+  "battery": {
+    "format": "{capacity}%",
+    "format-charging": "{capacity}% +",
+    "format-plugged": "{capacity}% +",
+    "states": {
+      "warning": 25,
+      "critical": 10
+    },
+    "tooltip-format": "笔记本电池 {capacity}% · {timeTo}",
+    "format-icons": [
+      "▰▱▱▱▱",
+      "▰▰▱▱▱",
+      "▰▰▰▱▱",
+      "▰▰▰▰▱",
+      "▰▰▰▰▰"
+    ]
+  },
+  "clock": {
+    "format": "{:%H : %M}",
+    "tooltip-format": "{:%A, %Y-%m-%d}"
+  },
+  "clock#date": {
+    "format": "{:%m.%d}",
+    "tooltip-format": "{:%Y-%m-%d}"
+  },
+  "cpu": {
+    "format": "CPU {usage:02}%",
+    "interval": 3,
+    "on-click": "foot btop"
+  },
+  "memory": {
+    "format": "MEM {percentage:02}%",
+    "interval": 5,
+    "on-click": "foot btop"
+  },
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 26,
+    "separate-outputs": true
+  },
+  "tray": {
+    "spacing": 8,
+    "icon-size": 12
+  },
+  "margin": "0",
+  "custom/unit": {
+    "format": "CAPSULE",
+    "tooltip": false
+  },
+  "custom/sub": {
+    "format": "SCOUTER / 01",
+    "tooltip": false
+  },
+  "group/unit": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/unit",
+      "custom/sub"
+    ]
+  },
+  "group/capsule": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/theme",
+      "group/unit",
+      "network"
+    ]
+  },
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "custom/theme"
+  ],
+  "group/energy": {
+    "orientation": "horizontal",
+    "modules": [
+      "battery",
+      "pulseaudio",
+      "clock",
+      "tray"
+    ]
+  },
+  "modules-right": [
+    "network",
+    "pulseaudio",
+    "battery",
+    "clock",
+    "tray",
+    "custom/power"
+  ],
+  "custom/power": {
+    "format": "⏻",
+    "tooltip-format": "电源菜单 · Super Shift P\n右键：锁屏 · Super L",
+    "on-click": "@PACKAGE@/desktop.py power",
+    "on-click-right": "@PACKAGE@/desktop.py lock"
+  }
+}

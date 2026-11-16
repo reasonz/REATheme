@@ -1,0 +1,7 @@
+Both new themes applied on live Hyprland; config, process and wallpaper checks passed.
+Waybar final height verified as 20 logical pixels for halo-fusion and goku-mature.
+Screenshots inspected: front-facing olive/gold fusion mech and clean-shaven golden Super Saiyan Goku.
+Existing four anime/mecha profile files unchanged (SHA-256 checks).
+Original desktop backups unchanged.
+Obsolete gundam-scene and pacific-rim-scene removed from installed profiles, directories and launch scripts.
+Previous version ZIPs retained as historical archives.

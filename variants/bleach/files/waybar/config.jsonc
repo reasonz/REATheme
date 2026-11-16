@@ -1,0 +1,102 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 20,
+  "spacing": 0,
+  "custom/theme": {
+    "format": "斬",
+    "tooltip-format": "左键：主题管理\n右键：应用启动器",
+    "on-click": "@PACKAGE@/REATheme",
+    "on-click-right": "rofi -show drun"
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "persistent-workspaces": {
+      "*": 4
+    },
+    "format-icons": {
+      "1": "Ⅰ",
+      "2": "Ⅱ",
+      "3": "Ⅲ",
+      "4": "Ⅳ",
+      "default": "Ⅴ"
+    }
+  },
+  "network": {
+    "format-wifi": "◈ {signalStrength}%",
+    "format-ethernet": "◈ LAN",
+    "format-disconnected": "◇ OFF",
+    "tooltip-format": "{essid}\n{ipaddr}",
+    "on-click": "foot nmtui",
+    "interval": 10
+  },
+  "pulseaudio": {
+    "format": "♪ {volume}",
+    "format-muted": "♪ MUTE",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "scroll-step": 5,
+    "tooltip-format": "音量 {volume}% · 滚轮调整 · 点击静音"
+  },
+  "battery": {
+    "format": "{capacity}",
+    "format-charging": "+ {capacity}%",
+    "format-plugged": "+ {capacity}%",
+    "states": {
+      "warning": 25,
+      "critical": 10
+    },
+    "tooltip-format": "笔记本电池 {capacity}% · {timeTo}"
+  },
+  "clock": {
+    "format": "{:%H : %M}",
+    "tooltip-format": "{:%A, %Y-%m-%d}"
+  },
+  "clock#date": {
+    "format": "{:%m.%d}",
+    "tooltip-format": "{:%Y-%m-%d}"
+  },
+  "cpu": {
+    "format": "CPU {usage:02}%",
+    "interval": 3,
+    "on-click": "foot btop"
+  },
+  "memory": {
+    "format": "MEM {percentage:02}%",
+    "interval": 5,
+    "on-click": "foot btop"
+  },
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 28,
+    "separate-outputs": true
+  },
+  "tray": {
+    "spacing": 8,
+    "icon-size": 12
+  },
+  "margin": "0",
+  "custom/unit": {
+    "format": "B A N K A I",
+    "tooltip": false
+  },
+  "modules-left": [
+    "custom/theme",
+    "custom/unit",
+    "hyprland/window"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "hyprland/workspaces",
+    "pulseaudio",
+    "battery",
+    "clock",
+    "tray",
+    "custom/power"
+  ],
+  "custom/power": {
+    "format": "⏻",
+    "tooltip-format": "电源菜单 · Super Shift P\n右键：锁屏 · Super L",
+    "on-click": "@PACKAGE@/desktop.py power",
+    "on-click-right": "@PACKAGE@/desktop.py lock"
+  }
+}

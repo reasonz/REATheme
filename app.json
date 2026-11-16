@@ -1,0 +1,17 @@
+{
+  "name": "REATheme",
+  "version": "5.0",
+  "frontend": "Qt6 Widgets / native Wayland",
+  "entrypoint": "REATheme",
+  "font": "Alibaba PuHuiTi 3.0",
+  "monospace": "monospace",
+  "themes": [
+    "mosslight",
+    "dragonball",
+    "bleach",
+    "gundam",
+    "pacific-rim",
+    "halo-fusion",
+    "goku-mature"
+  ]
+}

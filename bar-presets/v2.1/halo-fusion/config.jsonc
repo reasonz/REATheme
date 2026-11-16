@@ -1,0 +1,13 @@
+{
+ "layer":"top", "position":"top", "height":30, "spacing":0,
+ "modules-left":["custom/theme","hyprland/workspaces"],
+ "modules-center":["clock"],
+ "modules-right":["network","pulseaudio","battery","tray"],
+ "custom/theme":{"format":"▦  AEGIS", "tooltip-format":"光环 × 环太平洋 · 融合机甲\n点击打开主题管理", "on-click":"@PACKAGE@/REATheme"},
+ "hyprland/workspaces":{"format":"{name}","persistent-workspaces":{"*":4}},
+ "network":{"format-wifi":"◈  {signalStrength}%","format-ethernet":"◈  LAN","format-disconnected":"◇  OFF","tooltip-format":"{essid}\n{ipaddr}"},
+ "pulseaudio":{"format":"♪  {volume}","format-muted":"♪  —","on-click":"wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle","scroll-step":5},
+ "battery":{"format":"▰  {capacity}%","format-charging":"+  {capacity}%","format-plugged":"+  {capacity}%","states":{"warning":25,"critical":10}},
+ "clock":{"format":"{:%m.%d   /   %H:%M}","tooltip-format":"{:%A, %Y-%m-%d}"},
+ "tray":{"spacing":10,"icon-size":14}
+}

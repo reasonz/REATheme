@@ -1,0 +1,14 @@
+mosslight: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+dragonball: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+bleach: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+gundam: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+pacific-rim: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+goku-mature: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+halo-fusion: apply / 20px bar / 1px border / 3px gaps / scale 1 / lock parser / GTK CSS / cursor decode / SDDM test mode PASS
+Upgrade rollback: file bytes, absence, dconf values and SDDM state match pre-v4 PASS
+Original rollback: file bytes, absence, dconf values and SDDM state match baseline PASS
+Existing baseline backup file contents preserved PASS
+Returned to user selection: gundam
+
+Lock configuration parsed without connecting to a compositor; real unlock authentication was not exercised. SDDM validated in test mode; real login was not exercised.
+Injected failure rollback: files, dconf, SDDM, active selection PASS
